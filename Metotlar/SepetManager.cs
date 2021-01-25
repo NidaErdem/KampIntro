@@ -18,7 +18,7 @@ namespace Metotlar
             //sadece ekle yetmez.. neyi ekleyeceğim? onu da yazmalıyım.. buna parametre diyoruz (Urun urun) 1. urun veri tipi 2. urun onu birazdan aşağıda kullanırken isimlendirme.. yani ben onu o isimle kullanıcam..
             //bu metodun yapacağı kod bu süslü pantezler içine yazılır..
             
-            Console.WriteLine("Tebrikler. Sepete eklendi : " + urun.Adi);
+            Console.WriteLine("Tebrikler. Sepete eklendi : " + urun.Adi, "dshfsdhfg :" + urun.Fiyati);
             //bana gönderilen urunun adını da yazdırıyoruz + urun.Adi ile..
 
             //burası 1 satırda olabilir 100 satırda olabilir.. ben bu ekleyi çağırınca buradaki bütün satırlar çağırılır..
